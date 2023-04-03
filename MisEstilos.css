@@ -1,0 +1,45 @@
+ * {
+   background-color: gray;
+   color: white;
+   font-family:20px "Stint Ultra Condensed";
+   }
+
+  div#head{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+
+   h1 {
+    font-size: 55px;
+    display: flex;
+    align-content: center;
+    margin-top: 80px;
+  }
+
+  #logo {
+    width: 200px;
+    height: 200px;
+    }
+
+  p1 {
+    height: 5px;
+  }
+
+  ul {
+    font-size: xx-large;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+   li {
+    background-color: darkgrey;
+    margin: 20px ;
+    padding: 20px;
+    border: 10px;
+    border-radius: 20px;
+    height: 300px;
+    }
+
