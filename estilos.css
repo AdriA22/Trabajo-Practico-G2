@@ -1,0 +1,74 @@
+
+body {
+    text-align: center;
+    font:300 20px/1.7 'Barlow Semi Condensed';
+    color: #fff;
+    background: linear-gradient(rgba(5, 7, 12, 0.3), rgba(5, 7, 12, 0.3)), url(./img/teatroColon.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    background-attachment: fixed;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.img {
+    height: 450px;
+    width: 450px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar a {
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 20px "Stint Ultra Condensed";
+}
+
+.quienes{
+    padding: 80px 0;
+    max-width: 1055px; margin: 0 auto;
+}
+.suscribete{
+    padding: 20px 0;
+}
+.suscribete form{
+    width: 100%;
+   
+}
+.campo{
+    width: 20%;
+    padding: 15px 15px;
+    font-size: 15px;
+    border: 3px;
+    border-radius: 4px 0px 0px 4px;
+    outline: 0px;
+}
+.boton{
+    padding: 15px 15px;
+    font-size: 15px; 
+    border-radius:  0px 4px 4px 0px;
+    background: #FDEFB2;
+    cursor: pointer;
+    outline: 0px;
+}
+.boton:hover{
+    background:  #FBE790;
+}
+.pie a{
+    color: #fff;
+}
