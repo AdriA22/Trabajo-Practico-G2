@@ -72,3 +72,20 @@ body {
 .pie a{
     color: #fff;
 }
+
+ ul {
+    font-size: xx-large;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+ li {
+    background-color: darkgrey;
+    margin: 20px ;
+    padding: 20px;
+    border: 10px;
+    border-radius: 20px;
+    height: 300px;
+    }
