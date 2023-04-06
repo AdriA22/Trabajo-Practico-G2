@@ -104,25 +104,24 @@ img {
 }
 
 h6 {
-  background-color: #790d31;
   font-size: x-large;
+  color:#790d31
   display: flex;
   justify-content: center;
   padding: 32px;
   margin-bottom: 0px;
 }
 
-h7{
-  background-color: #dacbd0;
-  font-size: xx-large;
+h7 {
+  font-size: x-large;
   display: flex;
   justify-content: center;
-  color: rgb(75, 62, 62);
+  color: rgb(219, 208, 208);
   padding: 20px;
   margin-top: 0px;
 }
 
-.boton{
+.boton {
   background-color: whitesmoke;
   border: #790d31;
   color: #383a3b;
@@ -135,7 +134,7 @@ h7{
   font-size: 12px;
 }
 
-#boton{
+#boton {
   display:flex;
   flex-direction: row;
   justify-content: space-around;
@@ -143,22 +142,29 @@ h7{
   margin-bottom: 30px;
 }
 
-#imagenes{
+#imagenesfooter {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
-#final{
+.imagenesfooter{
+  height: 50px;
+  width: 50px;
+   }
+
+#final {
   display: flex;
   justify-content: center;
 }
 
-#ocultar{
-  background-color: transparent;
+#ocultar {
+  background-color: white;
   color: #790d31;
   border: none;
   font-size: xx-small;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
+  height: 25px;
 }
