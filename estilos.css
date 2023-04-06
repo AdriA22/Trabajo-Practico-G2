@@ -163,9 +163,16 @@ h7{
     color: rgb(219, 208, 208);
     padding: 20px;
     margin-top: 0px;
+h7 {
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  color: rgb(219, 208, 208);
+  padding: 20px;
+  margin-top: 0px;
 }
 
-.boton{
+.boton {
   background-color: whitesmoke;
   border: #790d31;
   color: #383a3b;
@@ -178,7 +185,7 @@ h7{
   font-size: 12px;
 }
 
-#boton{
+#boton {
   display:flex;
   flex-direction: row;
   justify-content: space-around;
@@ -187,19 +194,31 @@ h7{
 }
 
 #imagenesfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+#imagenesfooter {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.imagenesfooter{
-    height: 50px;
-    width: 50px;
-}
 #final{
   display: flex;
   justify-content: center;
 }
+
+#ocultar {
+  background-color: white;
+  color: #790d31;
+  border: none;
+  font-size: xx-small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+}
+
 #ocultar {
     background-color: white;
     color: #790d31;
