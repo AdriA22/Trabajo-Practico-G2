@@ -1,3 +1,4 @@
+
 body {
   text-align: center;
   font: 300 20px/1.7 "Barlow Semi Condensed";
@@ -54,22 +55,19 @@ body {
   padding: 15px 15px;
   font-size: 15px;
   border: 3px;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 5px 0px 0px 5px;
   outline: 0px;
 }
-.boton {
+.button {
   padding: 15px 15px;
   font-size: 15px;
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0px 5px 5px 0px;
   background: #fdefb2;
   cursor: pointer;
   outline: 0px;
 }
-.boton:hover {
+.button:hover {
   background: #fbe790;
-}
-.pie a {
-  color: #fff;
 }
 
 ul {
@@ -102,24 +100,69 @@ img {
 .box-shadow:hover {
   box-shadow: 0 8px 16px 10px rgba(0, 0, 0, 0.571);
 }
+.carrusel{
+    width: 100%;
+    max-width: 60em;
+    background-color: transparent;
+} 
+.carrusel .grande{
+    width: 400%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-around ;
+    align-items: center;
 
-h6 {
-  background-color: #790d31;
-  font-size: x-large;
-  display: flex;
-  justify-content: center;
-  padding: 32px;
-  margin-bottom: 0px;
+    transition: all.5s ease;
+    transform: translateX(0%);
+}
+.carrusel .img{
+    width: 500px; /*calc(50% / 4);  */
+    display: flex;
+    justify-content: center;
+}
+.carrusel .puntos{
+    width: 100%;
+    background-color: transparent;
+    padding: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel .punto{
+    width: 0.5em;
+    height: 0.5em;
+    background-color: white;    
+    margin: 5px;
+    margin-left: 20px;
+    border-radius: 150px;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+.punto:hover{
+    /* background-color: yellow; */
+    box-shadow: 0 8px 16px 10px rgba(0, 0, 0, 0.571);
+   
+}
+.carrusel .punto.activo{
+    background-color: yellow;
 }
 
-h7{
-  background-color: #dacbd0;
-  font-size: xx-large;
-  display: flex;
-  justify-content: center;
-  color: rgb(75, 62, 62);
-  padding: 20px;
-  margin-top: 0px;
+h6 {
+    font-size: x-large;
+    color:#790d31;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    margin-bottom: 0px;
+}
+
+h7{ 
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    color: rgb(219, 208, 208);
+    padding: 20px;
+    margin-top: 0px;
 }
 
 .boton{
@@ -143,12 +186,27 @@ h7{
   margin-bottom: 30px;
 }
 
-#imagenes{
-  display: flex;
-  justify-content: space-around;
+#imagenesfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
+.imagenesfooter{
+    height: 50px;
+    width: 50px;
+}
 #final{
   display: flex;
   justify-content: center;
 }
+#ocultar {
+    background-color: white;
+    color: #790d31;
+    border: none;
+    font-size: xx-small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+  }

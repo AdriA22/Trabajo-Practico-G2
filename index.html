@@ -8,6 +8,15 @@
     <link rel="stylesheet" type="text/css" href="./estilos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,300;0,600;0,700;0,900;1,100&display=swap"
       rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script defer src="MainPP.js"></script>
+    <script>
+      $(document).ready(function(){
+      $("#ocultar").click(function(){
+      $(".imagenesfooter").hide();
+      });
+      });
+  </script>
   </head>
 
   <body>
@@ -51,15 +60,20 @@
     </section>
     <section>
       <h2 id="cartelera">Cartelera</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
+      <div class="carrusel">
+        <div class="grande">          
+            <img src="./img/el famtasma.jpg" alt="imagen 1" class="img">         
+            <img src="./img/el conde.jpg" alt="imagen 2" class="img">
+            <img src="./img/el lago.jpg" alt="imagen 3" class="img">
+            <img src="./img/romeo y julieta.jpg" alt="imagen 4" class="img">  
+        </div>
+        <ul class="puntos">
+          <li class="punto activo"></li>
+          <li class="punto"></li>
+          <li class="punto"></li>
+          <li class="punto"></li>
+        </ul>
+      </div>
     </section>
 
     <section class="suscribete">
@@ -70,28 +84,30 @@
       </p>
       <form action="#">
         <input type="email" class="campo" placeholder="Ingresa tu email" />
-        <input type="submit" value="Suscribir" class="boton" />
+        <input type="submit" value="Suscribir" class="button" />
       </form>
     </section>
 
      <footer>
-            <div> 
-            <h6> TICKETS FALSOS </h6>    
-            <h7>SÓLO SE RECONOCERÁN LAS ENTRADAS COMPRADAS EN NUESTROS SITIOS OFICIALES</h7>
-            </div>
-            <div id="boton">
-            <a href="http://www.ticketportal.com.ar/puntos-de-venta-ticketportal.html"> <button class=boton name="PUNTOS DE VENTA">PUNTOS DE VENTA</button></a>
-            <a href="http://www.ticketportal.com.ar/guia-de-compra.php"> <button class=boton name="GUIA DE COMPRAS">GUIA DE COMPRAS</button></a>
-            <a href="http://www.ticketportal.com.ar/faq.html"><button class=boton name="button">PREGUNTAS FRECUENTES</button></a>
-            </div>
-            <div id="imagenes">
-            <img src="./img/afip.png">
-            <img src="./img/OcaLogo21.png">
-            <img src="./img/oto-blanco-02.png">
-            <img src="./img/responsable-registrado_registro-nacional-de-bases-de-datos_2019.jpg">
-            </div>
-            <p id="final">Copyright 2023 TicketArte. Todos los derechos reservados (mentira). Política de Privacidad (no tanto) •
-         </div>
+        <div> 
+          <h6> TICKETS FALSOS </h6>    
+          <h7>SÓLO SE RECONOCERÁN LAS ENTRADAS COMPRADAS EN NUESTROS SITIOS OFICIALES</h7>
+        </div>
+        <div id="boton">
+          <a href="http://www.ticketportal.com.ar/puntos-de-venta-ticketportal.html"> <button class=boton name="PUNTOS DE VENTA">PUNTOS DE VENTA</button></a>
+          <a href="http://www.ticketportal.com.ar/guia-de-compra.php"> <button class=boton name="GUIA DE COMPRAS">GUIA DE COMPRAS</button></a>
+          <a href="http://www.ticketportal.com.ar/faq.html"><button class=boton name="button">PREGUNTAS FRECUENTES</button></a>
+        </div>
+        <div id="imagenesfooter">
+          <img class=imagenesfooter src="./img/afip.png">
+          <img class=imagenesfooter src="./img/OcaLogo21.png">
+          <img class=imagenesfooter src="./img/oto-blanco-02.png">
+          <img class=imagenesfooter src="./img/responsable-registrado_registro-nacional-de-bases-de-datos_2019.jpg">
+        </div>
+        <div>
+          <p id="final">Copyright 2023 TicketArte. Todos los derechos reservados (mentira). Política de Privacidad (no tanto) •
+          <button id=ocultar class= imagenesfooter> Ocultar </button>
+        </div>
      </footer>
    
   </body>
