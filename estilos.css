@@ -192,6 +192,11 @@ h7{
   justify-content: space-around;
 }
 
+.imagenesfooter{
+  height: 50px;
+  width: 50px;
+   }
+
 #final{
   display: flex;
   justify-content: center;
