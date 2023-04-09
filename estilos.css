@@ -1,4 +1,3 @@
-
 body {
   text-align: center;
   font: 300 20px/1.7 "Barlow Semi Condensed";
@@ -32,42 +31,52 @@ body {
 }
 
 .navbar a {
-  padding: 50px 20px;
+  padding: 30px 20px;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   font: 20px "Stint Ultra Condensed";
 }
-
+#elTeatro{
+  font-family:'Dancing Script', cursive;
+  font-size: 40px;
+ 
+}
 .quienes {
   padding: 80px 0;
   max-width: 1055px;
   margin: 0 auto;
 }
+
 .suscribete {
   padding: 20px 0;
 }
+
 .suscribete form {
   width: 100%;
 }
+
 .campo {
   width: 20%;
-  padding: 15px 15px;
+  padding: 10px 10px;
   font-size: 20px;
-  border: 3px;
-  border-radius: 5px 0px 0px 5px;
+  
+  /* border-radius: 5px 0px 0px 5px; */
   outline: 0px;
 }
-.nombre{
+
+.nombre {
   width: 20%;
-  padding: 15px 15px;
+  padding: 10px 10px;
   font-size: 20px;
-  border: 3px;
+  
+  border-color: #fff;
   border-radius: 5px 0px 0px 5px;
   outline: 0px;
 }
+
 .button {
-  padding: 15px 15px;
+  padding: 10px 10px;
   font-size: 15px;
   color: #383a3b;
   border-radius: 0px 5px 5px 0px;
@@ -75,12 +84,13 @@ body {
   cursor: pointer;
   outline: 0px;
 }
+
 .button:hover {
   background: #fbe790;
 }
 
 ul {
-  font-size: xx-large;
+  font-size: 20px;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -88,142 +98,152 @@ ul {
 }
 
 #nombres {
-    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 22px;
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 22px;
 }
 
 .boxing {
   position: relative;
 }
+
 .box-shadow {
   box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   padding: 14px 20px;
 }
+
 img {
   height: 150px;
   width: 150px;
   border-radius: 150px;
-  
+
 }
+
 .box-shadow:hover {
   box-shadow: 0 8px 16px 10px rgba(0, 0, 0, 0.571);
 }
-.carrusel{
-    width: 100%;
-    max-width: 60em;
-    background-color: transparent;
-} 
-.carrusel .grande{
-    width: 400%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content:space-around ;
-    align-items: center;
 
-    transition: all.5s ease;
-    transform: translateX(0%);
+.carrusel {
+  width: 100%;
+  max-width: 60em;
+  background-color: transparent;
 }
-.carrusel .img{
-    width: 500px;
-    display: flex;
-    justify-content: center;
+
+.carrusel .grande {
+  width: 400%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+
+  transition: all.5s ease;
+  transform: translateX(0%);
 }
-.carrusel .puntos{
-    width: 100%;
-    background-color: transparent;
-    padding: 5px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+
+.carrusel .img {
+  width: 500px;
+  display: flex;
+  justify-content: center;
 }
-.carrusel .punto{
-    width: 0.5em;
-    height: 0.5em;
-    background-color: white;    
-    margin: 5px;
-    margin-left: 20px;
-    border-radius: 150px;
-    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+
+.carrusel .puntos {
+  width: 100%;
+  background-color: transparent;
+  padding: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
-.punto:hover{
-    box-shadow: 0 8px 16px 10px rgba(0, 0, 0, 0.571);
-   
+
+.carrusel .punto {
+  width: 0.5em;
+  height: 0.5em;
+  background-color: white;
+  margin: 5px;
+  margin-left: 20px;
+  border-radius: 150px;
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
 }
-.carrusel .punto.activo{
-    background-color: yellow;
+
+.punto:hover {
+  box-shadow: 0 8px 16px 10px rgba(0, 0, 0, 0.571);
+
+}
+
+.carrusel .punto.activo {
+  background-color: yellow;
 }
 
 #contenedor {
-        margin: 0 auto;
-        width: 400px;
-        padding: 1em;
-        border: 1px #CCC;
-        border-radius: 1em;
-       
-      }
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px #CCC;
+  border-radius: 1em;
 
-    #h5{
-        font:300 15px/1.7 'Barlow Semi Condensed';
-    }
-      
-    #reclamo{
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        color: #fff;
-         display:flex;
-        flex-direction: column;
-        height: 700px;
-      }
-         
-      label {
-        display: inline-block;
-        width: 90px;
-        text-align: right;
-      }
-      
-      input,
-      textarea {
-        font: 1em sans-serif;
-        width: 300px;
-        box-sizing: border-box;
-        border: 1px solid #999;
-        background-color: transparent;
-        color:#fff;
-      }
-      
-      #Mensaje{
-        width: 300px;
-      }
-
-        textarea {
-        vertical-align: top;
-        height: 5em;
-      }
-      
-      #enviar {
-        color: #fff;
-        background-color: transparent;
-      }
-    
-h7 {
-    font-size: x-large;
-    color:#f10856;
-    display: flex;
-    justify-content: center;
-    padding: 32px;
-    margin-bottom: 0px;
 }
 
-h8{ 
-    font-size: x-large;
-    display: flex;
-    justify-content: center;
-    color: rgb(219, 208, 208);
-    padding: 20px;
-    margin-top: 0px;
+#h5 {
+  font: 300 15px/1.7 'Barlow Semi Condensed';
+}
+
+#reclamo {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 15px sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  background-color: transparent;
+  color: #fff;
+}
+
+#Mensaje {
+  width: 300px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+#enviar {
+  color: #fff;
+  background-color: transparent;
+}
+
+h7 {
+  font-size: x-large;
+  color: #f10856;
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+  margin-bottom: 0px;
+}
+
+h8 {
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  color: rgb(219, 208, 208);
+  padding: 20px;
+  margin-top: 0px;
 }
 
 .boton {
@@ -240,7 +260,7 @@ h8{
 }
 
 #boton {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 30px;
@@ -253,12 +273,12 @@ h8{
   justify-content: space-around;
 }
 
-.imagenesfooter{
+.imagenesfooter {
   height: 50px;
   width: 50px;
-   }
+}
 
-#final{
+#final {
   display: flex;
   justify-content: center;
 }
@@ -275,12 +295,12 @@ h8{
 }
 
 #ocultar {
-    background-color: white;
-    color: #790d31;
-    border: none;
-    font-size: xx-small;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25px;
-  }
+  background-color: white;
+  color: #790d31;
+  border: none;
+  font-size: xx-small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+}
