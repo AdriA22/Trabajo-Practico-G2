@@ -116,7 +116,7 @@ img {
     transform: translateX(0%);
 }
 .carrusel .img{
-    width: 500px; /*calc(50% / 4);  */
+    width: 500px;
     display: flex;
     justify-content: center;
 }
@@ -139,7 +139,6 @@ img {
     box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
 }
 .punto:hover{
-    /* background-color: yellow; */
     box-shadow: 0 8px 16px 10px rgba(0, 0, 0, 0.571);
    
 }
