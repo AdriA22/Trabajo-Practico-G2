@@ -147,7 +147,59 @@ img {
     background-color: yellow;
 }
 
-h6 {
+#contenedor {
+        margin: 0 auto;
+        width: 400px;
+        padding: 1em;
+        border: 1px #CCC;
+        border-radius: 1em;
+       
+      }
+
+    #h5{
+        font:300 15px/1.7 'Barlow Semi Condensed';
+    }
+      
+    #reclamo{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        color: #fff;
+         display:flex;
+        flex-direction: column;
+      }
+         
+      label {
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+      }
+      
+      input,
+      textarea {
+        font: 1em sans-serif;
+        width: 300px;
+        box-sizing: border-box;
+        border: 1px solid #999;
+        background-color: transparent;
+        color:#fff;
+      }
+      
+      #Mensaje{
+        width: 300px;
+      }
+
+        textarea {
+        vertical-align: top;
+        height: 5em;
+      }
+      
+      #enviar {
+        color: #fff;
+        background-color: transparent;
+      }
+    
+h7 {
     font-size: x-large;
     color:#790d31;
     display: flex;
@@ -156,7 +208,7 @@ h6 {
     margin-bottom: 0px;
 }
 
-h7{ 
+h8{ 
     font-size: x-large;
     display: flex;
     justify-content: center;
