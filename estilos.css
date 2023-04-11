@@ -270,28 +270,26 @@ h8 {
 #imagenesfooter {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .imagenesfooter {
   height: 50px;
   width: 50px;
+  border-radius: 2px;
+}
+
+#oca{
+  width: 100px;
+}
+
+#data{
+  width: 70px;
 }
 
 #final {
   display: flex;
   justify-content: center;
-}
-
-#ocultar {
-  background-color: white;
-  color: #790d31;
-  border: none;
-  font-size: xx-small;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 25px;
 }
 
 #ocultar {
