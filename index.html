@@ -38,7 +38,7 @@
   </nav>
   <div>
     <p id="elTeatro">"El teatro es la poesía que se sale del libro para hacerse humana"</p>
-    <p>"Federico García Lorca</p>
+    <p>"Federico García Lorca"</p>
   </div>
 
 
@@ -47,12 +47,26 @@
     <p>TickArte es una solución que cubre todos los procesos asociados a la reserva, administración, venta y emisión de tickets vía Internet.</p>
     <div class="boxing">
       <div class="box-shadow">
-        <ul id="nombres">
-          <li>Adriana Suarez<img src="./imagenes/Adriana.jpeg" alt="Adriana" /></li>
-          <li>Ivana Quiroga<img src="./imagenes/Ivana.jpeg" alt="Ivana" /></li>
-          <li>Carla Ancarola<img src="./imagenes/carla.jpeg" alt="Carla" />
-          </li>
-        </ul>
+        <div id="nombres" >
+          <div id="foto">
+            <img src="./imagenes/Adriana.jpeg" alt="Adriana"/>
+            <div class="container">
+              <p>Adriana Suárez</p>
+            </div>
+          </div>
+          <div id="foto">
+            <img src="./imagenes/Ivana.jpeg" alt="Ivana"/>
+            <div class="container">
+              <p>Ivana Quiroga</p>
+            </div>
+          </div>
+          <div id="foto">
+            <img src="./imagenes/carla.jpeg" alt="Carla"/>
+            <div class="container">
+              <p>Carla Ancarola</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -76,7 +90,7 @@
 
   <section class="suscribete">
     <h2 id="susc">Suscríbete...!!</h2>
-    <p>Suscribite y no te pierdas los mejores estrenos.!! </p>
+    <p>Suscríbete y no te pierdas los mejores estrenos.!! </p>
     <form action="#">
       <input type="Nombre y Apellido" class="nombre" placeholder="Ingresa nombre y Apellido" />
       <input type="email" class="campo" placeholder="Ingresa tu email" />
@@ -91,7 +105,7 @@
       <formulario accion="" class="formulario"></formulario>
       <ul id="reclamo" class="header">
         <li>
-          <label for="name" class="form__label">Nombre</label>
+          <label for="name" class="form__label">Nombre:</label>
           <input type="text" class="form__input" name="nombre" placeholder="Nombre" id="name">
         </li>
         <li>
@@ -99,7 +113,7 @@
           <input type="text" class="form__input" name="Direccion" placeholder=Direccion id="direccion">
         </li>
         <li>
-          <label for=" correo" class="form__label"> Correo</label>
+          <label for=" correo" class="form__label"> Correo:</label>
           <input type="text" class="form__input" name="Correo" placeholder="e-mail" id=" correo">
         </li>
         <h6>Si aun no se arrepintio escriba su texto</h6>
@@ -112,34 +126,35 @@
         </li>
       </ul>
     </div>
+  </section>
 
-    <footer>
-      <div>
-        <h7> TICKETS FALSOS </h7>
-        <h8>SÓLO SE RECONOCERÁN LAS ENTRADAS COMPRADAS EN NUESTROS SITIOS OFICIALES</h8>
-      </div>
-      <div id="boton">
-        <a href="http://www.ticketportal.com.ar/puntos-de-venta-ticketportal.html"> <button class=boton
-            name="PUNTOS DE VENTA">PUNTOS DE VENTA</button></a>
-        <a href="http://www.ticketportal.com.ar/guia-de-compra.php"> <button class=boton name="GUIA DE COMPRAS">GUIA DE
-            COMPRAS</button></a>
-        <a href="http://www.ticketportal.com.ar/faq.html"><button class=boton name="button">PREGUNTAS
-            FRECUENTES</button></a>
-        <a href="#inicio"><button class=boton name="button">INICIO</button></a>
-      </div>
-      <div id="imagenesfooter">
-          <img class=imagenesfooter src="./img/oto.png">
-          <img class=imagenesfooter id="oca" src="./img/oca.png">
-          <img class=imagenesfooter src="./img/aaip-isologo.png">
-          <img class=imagenesfooter id="data" src="./img/data.png">
-      </div>
-      <div>
-        <p id="final">Copyright 2023 TicketArte. Todos los derechos reservados (mentira). Política de Privacidad (no
-          tanto) •
-          <button id=ocultar class=imagenesfooter> Ocultar </button>
-      </div>
+  <footer>
+    <div>
+      <h7> TICKETS FALSOS </h7>
+      <h8>SÓLO SE RECONOCERÁN LAS ENTRADAS COMPRADAS EN NUESTROS SITIOS OFICIALES</h8>
+    </div>
+    <div id="boton">
+      <a href="http://www.ticketportal.com.ar/puntos-de-venta-ticketportal.html"> <button class=boton
+          name="PUNTOS DE VENTA">PUNTOS DE VENTA</button></a>
+      <a href="http://www.ticketportal.com.ar/guia-de-compra.php"> <button class=boton name="GUIA DE COMPRAS">GUIA DE
+          COMPRAS</button></a>
+      <a href="http://www.ticketportal.com.ar/faq.html"><button class=boton name="button">PREGUNTAS
+          FRECUENTES</button></a>
+      <a href="#inicio"><button class=boton name="button">INICIO</button></a>
+    </div>
+    <div id="imagenesfooter">
+        <img class=imagenesfooter src="./img/oto.png">
+        <img class=imagenesfooter id="oca" src="./img/oca.png">
+        <img class=imagenesfooter src="./img/aaip-isologo.png">
+        <img class=imagenesfooter id="data" src="./img/data.png">
+    </div>
+    <div>
+      <p id="final">Copyright 2023 TicketArte. Todos los derechos reservados (mentira). Política de Privacidad (no
+        tanto) •
+        <button id=ocultar class=imagenesfooter> Ocultar </button>
+    </div>
 
-    </footer>
+  </footer>
 
 </body>
 

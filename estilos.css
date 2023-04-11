@@ -60,20 +60,22 @@ body {
   width: 20%;
   padding: 10px 10px;
   font-size: 20px;  
+  border-color: #fff;
   outline: 0px;
 }
 
 .nombre {
   width: 20%;
   padding: 10px 10px;
-  font-size: 20px;
-  
+  font-size: 20px;  
   border-color: #fff;
   border-radius: 5px 0px 0px 5px;
   outline: 0px;
 }
 
 .button {
+  width: 100px;
+  height: 47px;
   padding: 10px 10px;
   font-size: 15px;
   color: #383a3b;
@@ -96,8 +98,16 @@ ul {
 }
 
 #nombres {
-  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:'Dancing Script', cursive;
   font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 70px;
+}
+foto{
+  padding: 70px;
 }
 
 .boxing {
@@ -111,8 +121,8 @@ ul {
 }
 
 img {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;;
   border-radius: 150px;
 
 }
@@ -135,7 +145,6 @@ img {
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
-
   transition: all.5s ease;
   transform: translateX(0%);
 }
