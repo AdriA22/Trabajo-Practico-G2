@@ -59,9 +59,7 @@ body {
 .campo {
   width: 20%;
   padding: 10px 10px;
-  font-size: 20px;
-  
-  /* border-radius: 5px 0px 0px 5px; */
+  font-size: 20px;  
   outline: 0px;
 }
 
@@ -127,6 +125,8 @@ img {
   width: 100%;
   max-width: 60em;
   background-color: transparent;
+  overflow: hidden;
+  margin: auto;
 }
 
 .carrusel .grande {
