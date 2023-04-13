@@ -60,39 +60,29 @@ body {
   font: 15px sans-serif;
   box-sizing: border-box;
   border: 1px solid #999;
-  background-color: transparent;
-  color: #fff;
+  background-color: #f3ba6f;
+  color: rgb(54, 11, 11);
+  ;
 
-  /* width: 20%;
-  padding: 10px 10px;
-  font-size: 20px;  
-  border-color: #fff;
-  outline: 0px; */
 }
 
 .nombre {
   font: 15px sans-serif;
   box-sizing: border-box;
   border: 1px solid #999;
-  background-color: transparent;
-  color: #fff;
+  background-color: #f5c382;
+  color: rgb(54, 11, 11);
 
-  /* width: 20%;
-  padding: 10px 10px;
-  font-size: 20px;  
-  border-color: #fff;
-  border-radius: 5px 0px 0px 5px;
-  outline: 0px; */
 }
+::placeholder { color: rgb(163, 81, 81); }
 
 .button {
   width: 100px;
-  height: 22px;
-  /* padding: 10px 10px; */
+  height: 22px;  
   font-size: 15px;
-  color: #383a3b;
+  color: rgb(163, 81, 81);
   border-radius: 0px 5px 5px 0px;
-  background: #fdefb2;
+  background: #f5c382;
   cursor: pointer;
   outline: 0px;
 }
@@ -204,10 +194,6 @@ img {
   border-radius: 1em;
 
 }
-/* 
-#h5 {
-  font: 300 15px/1.7 'Barlow Semi Condensed';
-} */
 
 #reclamo {
   list-style: none;
@@ -231,8 +217,9 @@ textarea {
   width: 300px;
   box-sizing: border-box;
   border: 1px solid #999;
-  background-color: transparent;
-  color: #fff;
+  background-color: #f5c382;
+  color: rgb(54, 11, 11);
+  opacity: 0.8;
 }
 
 #Mensaje {
